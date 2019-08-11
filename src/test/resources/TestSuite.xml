@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testngSuite" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+    <test name="calculator base">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="extended"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.SumDoubleTest"/>
+            <class name="testng.SubDoubleTest"/>
+            <class name="testng.MultDoubleTest"/>
+            <class name="testng.TgTest"/>
+            <class name="testng.SqrtTest"/>
+            <class name="testng.PowTest"/>
+            <class name="testng.IsPositiveTest"/>
+            <class name="testng.DivDoubleTest"/>
+            <class name="testng.CtgTest"/>
+            <class name="testng.CosTest"/>
+        </classes>
+    </test>
+
+
+</suite>
