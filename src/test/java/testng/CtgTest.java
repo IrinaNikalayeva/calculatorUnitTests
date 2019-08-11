@@ -15,9 +15,9 @@ public class CtgTest extends BaseTest {
     @DataProvider(name = "ctgTestData")
     public Object[][] doubleValues() {
         return new Object[][]{
-            {0, 0},
-            {1, 0.0699268},
-            {6.25, 0.1095178}
+                {0, 0},
+                {1, 0.0699268},
+                {6.25, 0.1095178}
         };
     }
 

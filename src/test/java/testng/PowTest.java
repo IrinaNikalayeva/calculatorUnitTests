@@ -16,11 +16,11 @@ public class PowTest extends BaseTest {
     @DataProvider(name = "powTestData")
     public Object[][] doubleValues() {
         return new Object[][]{
-            {1, 2, 1},
-            {5, 2, 25},
-            {1, -2, 1},
-            {0, 0, 1},
-            {2, 1.1, 2.14354693},
-            };
+                {1, 2, 1},
+                {5, 2, 25},
+                {1, -2, 1},
+                {0, 0, 1},
+                {2, 1.1, 2.14354693},
+        };
     }
 }

@@ -9,12 +9,10 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class DivLongTest extends BaseTest
-{
+public class DivLongTest extends BaseTest {
 
     @Parameterized.Parameters
-    public static Collection<Object[]> data()
-    {
+    public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]
                 {
                         {3, 6, 0},
@@ -28,23 +26,20 @@ public class DivLongTest extends BaseTest
     private long b;
     private long expected;
 
-    public DivLongTest(long a, long b, long expected)
-    {
+    public DivLongTest(long a, long b, long expected) {
         this.a = a;
         this.b = b;
         this.expected = expected;
     }
 
     @Test
-    public void testLongMult()
-    {
-        long mult = calculator.div(a, b);
-        Assert.assertEquals(expected, mult);
+    public void divLongTest() {
+        long actual = calculator.div(a, b);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test(expected = NumberFormatException.class)
-    public void testLongDivByZero()
-    {
-       calculator.div(4L, 0);
+    public void testLongDivByZero() {
+        calculator.div(4L, 0);
     }
 }

@@ -15,9 +15,9 @@ public class SqrtTest extends BaseTest {
     @DataProvider(name = "sqrtTestData")
     public Object[][] doubleValues() {
         return new Object[][]{
-            {1, 1},
-            {4, 2},
-            {6.25, 2.5}
+                {1, 1},
+                {4, 2},
+                {6.25, 2.5}
         };
     }
 }

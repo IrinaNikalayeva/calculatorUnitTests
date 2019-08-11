@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="10" ignored="2" total="39" passed="27">
+<testng-results skipped="0" failed="10" ignored="1" total="39" passed="28">
   <reporter-output>
   </reporter-output>
-  <suite name="testngSuite" duration-ms="43" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+  <suite name="testngSuite" duration-ms="48" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
     <groups>
       <group name="regression">
         <method signature="CosTest.cosTest(double, double)[pri:0, instance:testng.CosTest@6956de9]" name="cosTest" class="testng.CosTest"/>
-        <method signature="CtgTest.CgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="CgTest" class="testng.CtgTest"/>
+        <method signature="CtgTest.cgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="cgTest" class="testng.CtgTest"/>
         <method signature="DivDoubleTest.divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" class="testng.DivDoubleTest"/>
         <method signature="MultDoubleTest.multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" class="testng.MultDoubleTest"/>
-        <method signature="PowTest.PowDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="PowDoubleTest" class="testng.PowTest"/>
-        <method signature="SqrtTest.SqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="SqrtTest" class="testng.SqrtTest"/>
-        <method signature="SubDoubleTest.SubDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="SubDoubleTest" class="testng.SubDoubleTest"/>
-        <method signature="SumDoubleTest.SumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="SumDoubleTest" class="testng.SumDoubleTest"/>
-        <method signature="TgTest.TgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="TgTest" class="testng.TgTest"/>
+        <method signature="PowTest.powDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="powDoubleTest" class="testng.PowTest"/>
+        <method signature="SqrtTest.sqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="sqrtTest" class="testng.SqrtTest"/>
+        <method signature="SubDoubleTest.subDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="subDoubleTest" class="testng.SubDoubleTest"/>
+        <method signature="SumDoubleTest.sumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="sumDoubleTest" class="testng.SumDoubleTest"/>
+        <method signature="TgTest.tgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="tgTest" class="testng.TgTest"/>
       </group> <!-- regression -->
       <group name="smoke">
         <method signature="DivDoubleTest.divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" class="testng.DivDoubleTest"/>
         <method signature="MultDoubleTest.multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" class="testng.MultDoubleTest"/>
-        <method signature="SubDoubleTest.SubDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="SubDoubleTest" class="testng.SubDoubleTest"/>
-        <method signature="SumDoubleTest.SumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="SumDoubleTest" class="testng.SumDoubleTest"/>
+        <method signature="SubDoubleTest.subDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="subDoubleTest" class="testng.SubDoubleTest"/>
+        <method signature="SumDoubleTest.sumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="sumDoubleTest" class="testng.SumDoubleTest"/>
       </group> <!-- smoke -->
       <group name="extended">
         <method signature="CosTest.cosTest(double, double)[pri:0, instance:testng.CosTest@6956de9]" name="cosTest" class="testng.CosTest"/>
-        <method signature="CtgTest.CgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="CgTest" class="testng.CtgTest"/>
-        <method signature="PowTest.PowDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="PowDoubleTest" class="testng.PowTest"/>
-        <method signature="SqrtTest.SqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="SqrtTest" class="testng.SqrtTest"/>
-        <method signature="TgTest.TgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="TgTest" class="testng.TgTest"/>
+        <method signature="CtgTest.cgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="cgTest" class="testng.CtgTest"/>
+        <method signature="DivDoubleTest.divideByZero()[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divideByZero" class="testng.DivDoubleTest"/>
+        <method signature="PowTest.powDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="powDoubleTest" class="testng.PowTest"/>
+        <method signature="SqrtTest.sqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="sqrtTest" class="testng.SqrtTest"/>
+        <method signature="TgTest.tgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="tgTest" class="testng.TgTest"/>
       </group> <!-- extended -->
     </groups>
-    <test name="calculator base" duration-ms="43" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+    <test name="calculator base" duration-ms="48" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
       <class name="testng.CosTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.CosTest@6956de9]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.CosTest@6956de9]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.CosTest@6956de9]" name="cosTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="cosTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.CosTest@6956de9]" name="cosTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="cosTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +80,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.CosTest@6956de9]" name="cosTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="cosTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.CosTest@6956de9]" name="cosTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="cosTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -123,7 +124,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.CosTest@6956de9]" name="cosTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="cosTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.CosTest@6956de9]" name="cosTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="cosTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -167,17 +168,17 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.CosTest@6956de9]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.CosTest@6956de9]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testng.CosTest -->
       <class name="testng.SubDoubleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.SubDoubleTest@18e8568]" name="setUp" is-config="true" duration-ms="9" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.SubDoubleTest@18e8568]" name="setUp" is-config="true" duration-ms="9" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SubDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="SubDoubleTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="subTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="subDoubleTest" duration-ms="2" started-at="2019-08-11T08:53:10Z" data-provider="subTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -197,8 +198,8 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubDoubleTest -->
-        <test-method status="PASS" signature="SubDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="SubDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="subTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- subDoubleTest -->
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="subDoubleTest" duration-ms="1" started-at="2019-08-11T08:53:10Z" data-provider="subTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -218,29 +219,8 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubDoubleTest -->
-        <test-method status="PASS" signature="SubDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="SubDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="subTestData" finished-at="2019-08-11T08:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SubDoubleTest -->
-        <test-method status="PASS" signature="SubDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="SubDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="subTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- subDoubleTest -->
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="subDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="subTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -260,8 +240,33 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubDoubleTest -->
-        <test-method status="PASS" signature="SubDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="SubDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="subTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- subDoubleTest -->
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="subDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="subTestData" finished-at="2019-08-11T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subDoubleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.SubDoubleTest@18e8568]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.SubDoubleTest@18e8568]" name="subDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="subTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -281,34 +286,10 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubDoubleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.SubDoubleTest@18e8568]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- subDoubleTest -->
       </class> <!-- testng.SubDoubleTest -->
       <class name="testng.CtgTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.CtgTest@18ef96]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="CgTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="ctgTestData" finished-at="2019-08-11T08:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CgTest -->
-        <test-method status="FAIL" signature="CgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="CgTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="ctgTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="FAIL" signature="cgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="cgTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="ctgTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -331,7 +312,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at cgTest(CtgTest.java:12)
+at testng.CtgTest.cgTest(CtgTest.java:12)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -350,12 +331,28 @@ at java.lang.Thread.run(Thread.java:745)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CgTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.CtgTest@18ef96]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- cgTest -->
+        <test-method status="PASS" signature="cgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="cgTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="ctgTestData" finished-at="2019-08-11T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="CgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="CgTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="ctgTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- cgTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.CtgTest@18ef96]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="cgTest(double, double)[pri:0, instance:testng.CtgTest@18ef96]" name="cgTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="ctgTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -378,7 +375,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at cgTest(CtgTest.java:12)
+at testng.CtgTest.cgTest(CtgTest.java:12)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -397,14 +394,18 @@ at java.lang.Thread.run(Thread.java:745)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CgTest -->
+        </test-method> <!-- cgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.CtgTest@18ef96]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testng.CtgTest -->
       <class name="testng.MultDoubleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="setUp" is-config="true" duration-ms="9" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="multTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="FAIL" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="1" started-at="2019-08-11T08:53:10Z" data-provider="multTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -452,7 +453,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
-        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="multTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="multTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -473,7 +474,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
-        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="multTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="multTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -494,7 +495,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
-        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="multTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="multTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -515,11 +516,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="multTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="multDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="multTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -540,9 +537,38 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.MultDoubleTest@33e5ccce]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testng.MultDoubleTest -->
       <class name="testng.PowTest">
-        <test-method status="PASS" signature="PowDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="PowDoubleTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="powTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.PowTest@52d455b8]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="powDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="powDoubleTest" duration-ms="1" started-at="2019-08-11T08:53:10Z" data-provider="powTestData" finished-at="2019-08-11T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powDoubleTest -->
+        <test-method status="PASS" signature="powDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="powDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="powTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -562,8 +588,8 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PowDoubleTest -->
-        <test-method status="PASS" signature="PowDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="PowDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="powTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- powDoubleTest -->
+        <test-method status="PASS" signature="powDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="powDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="powTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -583,12 +609,12 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PowDoubleTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.PowTest@52d455b8]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- powDoubleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.PowTest@52d455b8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="PowDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="PowDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="powTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="powDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="powDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="powTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -608,8 +634,8 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PowDoubleTest -->
-        <test-method status="FAIL" signature="PowDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="PowDoubleTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="powTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- powDoubleTest -->
+        <test-method status="FAIL" signature="powDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="powDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="powTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -637,7 +663,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at powDoubleTest(PowTest.java:12)
+at testng.PowTest.powDoubleTest(PowTest.java:12)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -656,39 +682,10 @@ at java.lang.Thread.run(Thread.java:745)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PowDoubleTest -->
-        <test-method status="PASS" signature="PowDoubleTest(double, double, double)[pri:0, instance:testng.PowTest@52d455b8]" name="PowDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="powTestData" finished-at="2019-08-11T08:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PowDoubleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.PowTest@52d455b8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- powDoubleTest -->
       </class> <!-- testng.PowTest -->
       <class name="testng.TgTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.TgTest@5a42bbf4]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="TgTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="tgTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="FAIL" signature="tgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="tgTest" duration-ms="1" started-at="2019-08-11T08:53:10Z" data-provider="tgTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -711,7 +708,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at tgTest(TgTest.java:12)
+at testng.TgTest.tgTest(TgTest.java:12)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -730,8 +727,12 @@ at java.lang.Thread.run(Thread.java:745)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TgTest -->
-        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="TgTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="tgTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- tgTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.TgTest@5a42bbf4]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="tgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="tgTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="tgTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -754,7 +755,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at tgTest(TgTest.java:12)
+at testng.TgTest.tgTest(TgTest.java:12)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -773,12 +774,8 @@ at java.lang.Thread.run(Thread.java:745)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TgTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.TgTest@5a42bbf4]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="TgTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="tgTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- tgTest -->
+        <test-method status="FAIL" signature="tgTest(double, double)[pri:0, instance:testng.TgTest@5a42bbf4]" name="tgTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="tgTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -801,7 +798,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at tgTest(TgTest.java:12)
+at testng.TgTest.tgTest(TgTest.java:12)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -820,10 +817,38 @@ at java.lang.Thread.run(Thread.java:745)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TgTest -->
+        </test-method> <!-- tgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.TgTest@5a42bbf4]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testng.TgTest -->
       <class name="testng.SqrtTest">
-        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="SqrtTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="sqrtTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="sqrtTest" duration-ms="1" started-at="2019-08-11T08:53:10Z" data-provider="sqrtTestData" finished-at="2019-08-11T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrtTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.SqrtTest@270421f5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.SqrtTest@270421f5]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="sqrtTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="sqrtTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -838,28 +863,8 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SqrtTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.SqrtTest@270421f5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="SqrtTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="sqrtTestData" finished-at="2019-08-11T08:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SqrtTest -->
-        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="SqrtTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="sqrtTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- sqrtTest -->
+        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.SqrtTest@270421f5]" name="sqrtTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="sqrtTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -874,18 +879,14 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SqrtTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.SqrtTest@270421f5]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- sqrtTest -->
       </class> <!-- testng.SqrtTest -->
       <class name="testng.SumDoubleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="setUp" is-config="true" duration-ms="9" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="setUp" is-config="true" duration-ms="9" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="SumDoubleTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="sumTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="sumDoubleTest" duration-ms="2" started-at="2019-08-11T08:53:10Z" data-provider="sumTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -905,8 +906,8 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SumDoubleTest -->
-        <test-method status="PASS" signature="SumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="SumDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="sumTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- sumDoubleTest -->
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="sumDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="sumTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -926,8 +927,29 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SumDoubleTest -->
-        <test-method status="PASS" signature="SumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="SumDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="sumTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- sumDoubleTest -->
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="sumDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="sumTestData" finished-at="2019-08-11T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumDoubleTest -->
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="sumDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="sumTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -947,54 +969,8 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SumDoubleTest -->
-        <test-method status="PASS" signature="SumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="SumDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="sumTestData" finished-at="2019-08-11T08:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SumDoubleTest -->
-        <test-method status="PASS" signature="SumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="SumDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="sumTestData" finished-at="2019-08-11T08:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-8.5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-17.5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SumDoubleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="SumDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="sumTestData" finished-at="2019-08-11T08:35:12Z">
+        </test-method> <!-- sumDoubleTest -->
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="sumDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="sumTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -1014,10 +990,60 @@ at java.lang.Thread.run(Thread.java:745)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SumDoubleTest -->
+        </test-method> <!-- sumDoubleTest -->
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="sumDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="sumTestData" finished-at="2019-08-11T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-17.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumDoubleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.SumDoubleTest@1c2c22f3]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testng.SumDoubleTest -->
       <class name="testng.DivDoubleTest">
-        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" duration-ms="1" started-at="2019-08-11T08:35:12Z" data-provider="divTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="divTestData" finished-at="2019-08-11T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divDoubleTest -->
+        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="divTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -1038,32 +1064,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divDoubleTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="divTestData" finished-at="2019-08-11T08:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- divDoubleTest -->
-        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="divTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="divTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -1084,7 +1085,35 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divDoubleTest -->
-        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" duration-ms="0" started-at="2019-08-11T08:35:12Z" data-provider="divTestData" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="divideByZero()[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divideByZero" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+at testng.DivDoubleTest.divideByZero(DivDoubleTest.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideByZero -->
+        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="divDoubleTest" duration-ms="0" started-at="2019-08-11T08:53:10Z" data-provider="divTestData" finished-at="2019-08-11T08:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -1105,14 +1134,14 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divDoubleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.DivDoubleTest@4f4a7090]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-11T08:53:10Z" finished-at="2019-08-11T08:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testng.DivDoubleTest -->
     </test> <!-- calculator base -->
   </suite> <!-- testngSuite -->
-  <suite name="Default Suite" duration-ms="0" started-at="2019-08-11T08:35:12Z" finished-at="2019-08-11T08:35:12Z">
+  <suite name="Default Suite" duration-ms="0" started-at="2019-08-11T08:53:11Z" finished-at="2019-08-11T08:53:11Z">
     <groups>
     </groups>
   </suite> <!-- Default Suite -->

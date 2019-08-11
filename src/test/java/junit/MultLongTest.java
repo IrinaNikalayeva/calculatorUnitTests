@@ -9,12 +9,10 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class MultLongTest extends BaseTest
-{
+public class MultLongTest extends BaseTest {
 
     @Parameterized.Parameters
-    public static Collection<Object[]> data()
-    {
+    public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]
                 {
                         {3, 6, 18},
@@ -28,17 +26,15 @@ public class MultLongTest extends BaseTest
     private long b;
     private long expected;
 
-    public MultLongTest(long a, long b, long expected)
-    {
+    public MultLongTest(long a, long b, long expected) {
         this.a = a;
         this.b = b;
         this.expected = expected;
     }
 
     @Test
-    public void testLongMult()
-    {
-        long mult = calculator.mult(a, b);
-        Assert.assertEquals(expected, mult);
+    public void testLongMult() {
+        long actual = calculator.mult(a, b);
+        Assert.assertEquals(expected, actual);
     }
 }

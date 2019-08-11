@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [testngSuite]" parallel="methods">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [testngSuite]" parallel="methods">
   <listeners>
-    <listener class-name="listeners.TestListener"/>
+    <listener class-name="listeners.TestngListener"/>
   </listeners>
-  <test thread-count="3" name="calculator base(failed)" parallel="methods">
+  <test thread-count="2" name="calculator base(failed)" parallel="methods">
     <groups>
       <run>
         <include name="smoke"/>
@@ -21,7 +21,7 @@
       </class> <!-- testng.MultDoubleTest -->
       <class name="testng.PowTest">
         <methods>
-          <include name="PowDoubleTest" invocation-numbers="4"/>
+          <include name="powDoubleTest" invocation-numbers="4"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
@@ -35,14 +35,14 @@
       </class> <!-- testng.CosTest -->
       <class name="testng.TgTest">
         <methods>
-          <include name="TgTest" invocation-numbers="0 1 2"/>
+          <include name="tgTest" invocation-numbers="0 1 2"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testng.TgTest -->
       <class name="testng.CtgTest">
         <methods>
-          <include name="CgTest" invocation-numbers="1 2"/>
+          <include name="cgTest" invocation-numbers="1 2"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

@@ -15,11 +15,11 @@ public class SubDoubleTest extends BaseTest {
     @DataProvider(name = "subTestData")
     public Object[][] doubleValues() {
         return new Object[][]{
-            {1.0, 2.0, -1},
-            {5.0, 5.0, 0},
-            {1.0, -2.0, 3},
-            {0, 0, 0},
-            {1, 5, -4},
-            };
+                {1.0, 2.0, -1},
+                {5.0, 5.0, 0},
+                {1.0, -2.0, 3},
+                {0, 0, 0},
+                {1, 5, -4},
+        };
     }
 }

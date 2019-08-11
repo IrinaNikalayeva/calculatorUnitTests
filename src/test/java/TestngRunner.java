@@ -1,4 +1,4 @@
-import listeners.TestListener;
+import listeners.TestngListener;
 import org.testng.TestNG;
 import org.testng.xml.XmlSuite;
 
@@ -10,7 +10,7 @@ public class TestngRunner {
 
     public static void main(String[] args) {
         TestNG testNg = new TestNG();
-        testNg.addListener(new TestListener());
+        testNg.addListener(new TestngListener());
 
         XmlSuite suite = new XmlSuite();
         suite.setSuiteFiles(Arrays.asList("./src/test/resources/TestSuite.xml"));

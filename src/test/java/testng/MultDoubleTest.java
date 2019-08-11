@@ -15,11 +15,11 @@ public class MultDoubleTest extends BaseTest {
     @DataProvider(name = "multTestData")
     public Object[][] doubleValues() {
         return new Object[][]{
-            {1.1, 2.1, 2.31},
-            {5.0, 5.0, 25},
-            {1.0, -2.0, -2},
-            {0, 0, 0},
-            {1, 5, 5},
-            };
+                {1.1, 2.1, 2.31},
+                {5.0, 5.0, 25},
+                {1.0, -2.0, -2},
+                {0, 0, 0},
+                {1, 5, 5},
+        };
     }
 }

@@ -14,13 +14,13 @@ public class SumDoubleTest extends BaseTest {
 
     @DataProvider(name = "sumTestData")
     public Object[][] doubleValues() {
-        return new Object[][] {
-            {1.1, 2.0, 3.1},
-            {5.0, 5.0, 10.0},
-            {1.0, -2.0, -1},
-            {0, 0, 0},
-            {-1, 2.0, 1},
-            {-9, -8.5, -17.5}
+        return new Object[][]{
+                {1.1, 2.0, 3.1},
+                {5.0, 5.0, 10.0},
+                {1.0, -2.0, -1},
+                {0, 0, 0},
+                {-1, 2.0, 1},
+                {-9, -8.5, -17.5}
         };
     }
 

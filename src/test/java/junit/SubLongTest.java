@@ -9,18 +9,16 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class SubLongTest extends BaseTest
-{
+public class SubLongTest extends BaseTest {
 
     @Parameterized.Parameters
-    public static Collection<Object[]> data()
-    {
+    public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]
                 {
                         {3, 6, -3},
                         {-12, 5, -17},
                         {-8, -7, -1},
-                        {918272, 45689,872583}
+                        {918272, 45689, 872583}
                 });
     }
 
@@ -28,17 +26,15 @@ public class SubLongTest extends BaseTest
     private long b;
     private long expected;
 
-    public SubLongTest(long a, long b, long expected)
-    {
+    public SubLongTest(long a, long b, long expected) {
         this.a = a;
         this.b = b;
         this.expected = expected;
     }
 
     @Test
-    public void testLongMult()
-    {
-        long sub = calculator.sub(a, b);
-        Assert.assertEquals(expected, sub);
+    public void testLongMult() {
+        long actual = calculator.sub(a, b);
+        Assert.assertEquals(expected, actual);
     }
 }

@@ -12,7 +12,7 @@ import java.util.Collection;
 public class SinTest extends BaseTest {
 
     @Parameterized.Parameters
-    public static Collection<Object[]> data() {
+    public static Collection<Object[]> sinTestData() {
         return Arrays.asList(new Object[][]
                 {
                         {Math.toRadians(90), 1},
