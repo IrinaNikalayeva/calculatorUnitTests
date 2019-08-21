@@ -11,22 +11,22 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class SinTest extends BaseTest {
 
-    @Parameterized.Parameters
-    public static Collection<Object[]> sinTestData() {
-        return Arrays.asList(new Object[][]
-                {
-                        {Math.toRadians(90), 1},
-                        {Math.toRadians(0), 0},
-                        {Math.toRadians(30), 0.5},
-                });
-    }
-
     private double a;
     private double expected;
 
     public SinTest(double a, double expected) {
         this.a = a;
         this.expected = expected;
+    }
+
+    @Parameterized.Parameters
+    public static Collection<Object[]> sinTestData() {
+        return Arrays.asList(new Object[][]
+                                 {
+                                     {Math.toRadians(90), 1},
+                                     {Math.toRadians(0), 0},
+                                     {Math.toRadians(30), 0.5},
+                                     });
     }
 
     @Test

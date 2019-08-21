@@ -11,17 +11,6 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class MultLongTest extends BaseTest {
 
-    @Parameterized.Parameters
-    public static Collection<Object[]> data() {
-        return Arrays.asList(new Object[][]
-                {
-                        {3, 6, 18},
-                        {-12, 5, -60},
-                        {-8, -7, 56},
-                        {918272L, 45689L, 41954929408L}
-                });
-    }
-
     private long a;
     private long b;
     private long expected;
@@ -30,6 +19,17 @@ public class MultLongTest extends BaseTest {
         this.a = a;
         this.b = b;
         this.expected = expected;
+    }
+
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return Arrays.asList(new Object[][]
+                                 {
+                                     {3, 6, 18},
+                                     {-12, 5, -60},
+                                     {-8, -7, 56},
+                                     {918272L, 45689L, 41954929408L}
+                                 });
     }
 
     @Test

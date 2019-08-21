@@ -11,17 +11,6 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class SumLongTest extends BaseTest {
 
-    @Parameterized.Parameters
-    public static Collection<Object[]> data() {
-        return Arrays.asList(new Object[][]
-                {
-                        {3, 6, 9},
-                        {-12, 5, -7},
-                        {-8, -7, -15},
-                        {918272, 45689, 963961}
-                });
-    }
-
     private long a;
     private long b;
     private long expected;
@@ -30,6 +19,17 @@ public class SumLongTest extends BaseTest {
         this.a = a;
         this.b = b;
         this.expected = expected;
+    }
+
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return Arrays.asList(new Object[][]
+                                 {
+                                     {3, 6, 9},
+                                     {-12, 5, -7},
+                                     {-8, -7, -15},
+                                     {918272, 45689, 963961}
+                                 });
     }
 
     @Test

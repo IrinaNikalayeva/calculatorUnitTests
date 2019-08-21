@@ -11,22 +11,22 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class IsNegativeTest extends BaseTest {
 
-    @Parameterized.Parameters
-    public static Collection<Object[]> data() {
-        return Arrays.asList(new Object[][]
-                {
-                        {0, false},
-                        {-5, true},
-                        {7, false},
-                });
-    }
-
     private long a;
     private boolean expected;
 
     public IsNegativeTest(long a, boolean expected) {
         this.a = a;
         this.expected = expected;
+    }
+
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return Arrays.asList(new Object[][]
+                                 {
+                                     {0, false},
+                                     {-5, true},
+                                     {7, false},
+                                     });
     }
 
     @Test

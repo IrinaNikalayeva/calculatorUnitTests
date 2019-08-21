@@ -11,17 +11,6 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class SubLongTest extends BaseTest {
 
-    @Parameterized.Parameters
-    public static Collection<Object[]> data() {
-        return Arrays.asList(new Object[][]
-                {
-                        {3, 6, -3},
-                        {-12, 5, -17},
-                        {-8, -7, -1},
-                        {918272, 45689, 872583}
-                });
-    }
-
     private long a;
     private long b;
     private long expected;
@@ -30,6 +19,17 @@ public class SubLongTest extends BaseTest {
         this.a = a;
         this.b = b;
         this.expected = expected;
+    }
+
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return Arrays.asList(new Object[][]
+                                 {
+                                     {3, 6, -3},
+                                     {-12, 5, -17},
+                                     {-8, -7, -1},
+                                     {918272, 45689, 872583}
+                                 });
     }
 
     @Test
